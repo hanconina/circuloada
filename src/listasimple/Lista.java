@@ -1,6 +1,6 @@
 
 package listasimple;
-public class Lista <T>{
+public class Lista <T extends Comparable>{
     // Atributo
     private Nodo cabeza;  
     // Operaciones
@@ -51,6 +51,18 @@ public class Lista <T>{
     
     public T iesimo(int pos){
         return null;
+    }
+    
+    public int ubicacion(T elemento){
+        return 0;
+    }
+    
+    public void insertar(int pos, T elemento){
+        
+    }
+    
+    public void eliminar(int pos){
+        
     }
     
 }
